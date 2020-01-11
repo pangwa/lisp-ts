@@ -1,3 +1,4 @@
-export default function add(x: number, y: number, z: number): number {
-  return x + y + z;
-}
+import { parseNumber, parseLisp } from './parser';
+
+parseLisp('abc');
+parseNumber('abc');
